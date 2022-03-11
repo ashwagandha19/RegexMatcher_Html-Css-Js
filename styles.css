@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* resetez font-size la 10px si o sa lucrez in rems*/
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+
+    font-size: 1.6rem;
+}
+
+h1, h3 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .7px;
+    padding: 2rem;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: #3F88C5;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+
+input {
+    width: 100%;
+    margin: 2rem;
+    padding: .5rem;
+    font-size: inherit;
+    border-radius: 1rem;
+    border: none;
+    font-family: inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+#regex {
+    padding: 1rem;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    margin: 1rem;
+
+    transition: all .3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+#patternBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patternBtn {
+    background-color: #3F88C5;
+    color: #fff;
+}
+
+#result {
+    text-align: center;
+}
+
+#regexCheck {
+    padding: 1rem 0;
+    color: #eee;
+    font-weight: 700;
+}
