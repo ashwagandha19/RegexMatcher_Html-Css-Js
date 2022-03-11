@@ -15,6 +15,7 @@
 // the "?" sign optionally matches the preceding character, but maximum 1 time
 // the "*" sign is a combination of  "?" and "+", it matches all occurrences of the preceding character, but optionally
 // ((?:abc(.*))|(?:qqq)){2,4}
+// abc.*qqq
 
 //TODO 1.5
 // pattern to check abc followed by mno 2 to 4 times => ((?:abc(.*))|(?:mno)){2,4}
@@ -34,7 +35,7 @@
 
 //TODO 1.10
 // pattern for exact 2 chars, 1 space, 4 digits => [A-Za-z]{2}[\s][0-9]{4}
-//* test ab 1234
+//* ab 1234
 
 //TODO 1.11
 //(?:[?/](.*))?
